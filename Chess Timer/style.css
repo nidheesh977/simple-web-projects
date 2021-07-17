@@ -1,0 +1,67 @@
+.light {
+    height: 10px;
+    width: 10px;
+    background-color: grey;
+    border-radius: 5px;
+}
+
+#llight {
+    position: relative;
+    top: -15px;
+    left: 145px;
+    pointer-events: none;
+}
+
+#rlight {
+    position: relative;
+    left: 440px;
+    top: -25px;
+}
+
+#outer {
+    background-color: silver;
+    height: 300px;
+    width: 600px;
+    border-radius: 80px;
+    position: relative;
+    text-align: center;
+}
+
+.button {
+    height: 80px;
+    width: 120px;
+    border-radius: 20px;
+    border: 0;
+    background-color: black;
+    margin-left: 90px;
+    position: relative;
+    top: 50px;
+}
+
+#btn1 {
+    margin-right: 80px;
+}
+
+.display {
+    height: 50px;
+    width: 220px;
+    background-color: rgb(78, 78, 78);
+    margin-top: 50px;
+    font-size: 50px;
+    text-align: center;
+}
+
+#display1 {
+    margin-right: 50px;
+}
+
+.sas {
+    font-size: 50px;
+    text-align: center;
+    height: 80px;
+    width: 80px;
+    margin: 15px;
+    margin-top: 50px;
+    color: white;
+    background-color: black;
+}

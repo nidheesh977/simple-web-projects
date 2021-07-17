@@ -1,0 +1,271 @@
+body {
+    background-color: brown;
+    font-size: 40px;
+}
+
+#main {
+    height: 500px;
+    width: 500px;
+    background-color: burlywood;
+    border: ridge 30px grey;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+}
+
+.ltop {
+    height: 50px;
+    width: 50px;
+    background-color: black;
+    border-radius: 30px 30px 30px 30px;
+    float: left;
+}
+
+.rtop {
+    height: 50px;
+    width: 50px;
+    background-color: black;
+    border-radius: 30px 30px 30px 30px;
+    float: right;
+}
+
+.lbottom {
+    height: 50px;
+    width: 50px;
+    background-color: black;
+    float: left;
+    position: relative;
+    border-radius: 30px 30px 30px 30px;
+    top: 450px;
+    right: 50px;
+}
+
+.rbottom {
+    height: 50px;
+    width: 50px;
+    background-color: black;
+    float: right;
+    border-radius: 30px 30px 30px 30px;
+    margin-top: 400px;
+    margin-left: 500px;
+}
+
+#strbox {
+    height: 400px;
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    top: -733px;
+}
+
+.top {
+    height: 30px;
+    width: 75%;
+    border: solid black 1px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 20px;
+}
+
+.topringtop {
+    height: 100%;
+    width: 30px;
+    background-color: rgb(182, 0, 0);
+    border-radius: 100px;
+    border: 0.5px solid black;
+    position: relative;
+    bottom: 0.5005px;
+}
+
+.topringbottom {
+    height: 100%;
+    width: 30px;
+    background-color: rgb(182, 0, 0);
+    border-radius: 100px;
+    border: 1px solid black;
+    margin-left: 250px;
+    position: relative;
+    bottom: 32px;
+    left: 19px;
+}
+
+.bottom {
+    height: 30px;
+    width: 75%;
+    border: solid black 1px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 30px;
+    margin-top: 335px;
+}
+
+.bottomringtop {
+    height: 100%;
+    width: 30px;
+    background-color: rgb(182, 0, 0);
+    border-radius: 100px;
+    border: 0.5px solid black;
+    position: relative;
+    bottom: 0.5005px;
+}
+
+.bottomringbottom {
+    height: 100%;
+    width: 30px;
+    background-color: rgb(182, 0, 0);
+    border-radius: 100px;
+    border: 1px solid black;
+    margin-left: 250px;
+    position: relative;
+    bottom: 32px;
+    left: 19px;
+}
+
+.left {
+    height: 30px;
+    width: 75%;
+    border: solid black 1px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 30px;
+    transform: rotate(90deg);
+    position: relative;
+    bottom: 215px;
+    right: 190px;
+}
+
+.leftringtop {
+    height: 100%;
+    width: 30px;
+    background-color: rgb(182, 0, 0);
+    border-radius: 100px;
+    border: 0.5px solid black;
+    position: relative;
+    bottom: 0.5005px;
+}
+
+.leftringbottom {
+    height: 100%;
+    width: 30px;
+    background-color: rgb(182, 0, 0);
+    border-radius: 100px;
+    border: 1px solid black;
+    margin-left: 250px;
+    position: relative;
+    bottom: 32px;
+    left: 19px;
+}
+
+.right {
+    height: 30px;
+    width: 75%;
+    border: solid black 1px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 30px;
+    transform: rotate(90deg);
+    position: relative;
+    bottom: 245px;
+    right: -190px;
+}
+
+.rightringtop {
+    height: 100%;
+    width: 30px;
+    background-color: rgb(182, 0, 0);
+    border-radius: 100px;
+    border: 0.5px solid black;
+    position: relative;
+    bottom: 0.5005px;
+}
+
+.rightringbottom {
+    height: 100%;
+    width: 30px;
+    background-color: rgb(182, 0, 0);
+    border-radius: 100px;
+    border: 1px solid black;
+    margin-left: 250px;
+    position: relative;
+    bottom: 32px;
+    left: 19px;
+}
+
+#centerring {
+    height: 150px;
+    width: 150px;
+    background-image: url(images.jpeg);
+    position: relative;
+    border-radius: 100px;
+    bottom: 335px;
+    left: 120px;
+}
+
+#line1 {
+    height: 150px;
+    width: 2px;
+    background-color: black;
+    position: relative;
+    left: 115px;
+    top: 40px;
+    transform: rotate(-45deg);
+}
+
+#line2 {
+    height: 150px;
+    width: 2px;
+    background-color: black;
+    position: relative;
+    left: 385px;
+    bottom: 105px;
+    transform: rotate(45deg);
+}
+
+#line3 {
+    height: 150px;
+    width: 2px;
+    background-color: black;
+    position: relative;
+    top: 12px;
+    left: 112px;
+    transform: rotate(45deg);
+}
+
+#line4 {
+    height: 150px;
+    width: 2px;
+    background-color: black;
+    position: relative;
+    left: 382px;
+    bottom: 140px;
+    transform: rotate(-45deg);
+}
+
+#tip1 {
+    transform: rotate(-45deg);
+    position: relative;
+    top: 149px;
+    left: 56px;
+}
+
+#tip2 {
+    transform: rotate(40deg);
+    position: relative;
+    top: 360px;
+    left: 226px;
+}
+
+#tip3 {
+    transform: rotate(135deg);
+    position: relative;
+    top: 478px;
+    right: 58px;
+}
+
+#tip4 {
+    transform: rotate(225deg);
+    position: relative;
+    top: 170px;
+    right: 213px;
+}

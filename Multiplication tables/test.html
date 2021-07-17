@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script type="text/javascript">
+        function submit() {
+            var tablesOf = document.querySelector("#tblOf").value
+            for (var i = 1; i <= 10; i++) {
+                var line = "l" + i
+                document.querySelector("#" + line).innerHTML = i + " X " + tablesOf + " = " + tablesOf * i
+            }
+        }
+    </script>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div id="top">
+        <h1 id="heading">Tables:</h1>
+        <input type="text" id="tblOf" placeholder="Tables of">
+    </div>
+    <br>
+    <button id="submit" onclick="submit()">Submit</button>
+
+    <div id="result">
+        <h1 id="l1"></h1>
+        <h1 id="l2"></h1>
+        <h1 id="l3"></h1>
+        <h1 id="l4"></h1>
+        <h1 id="l5"></h1>
+        <h1 id="l6"></h1>
+        <h1 id="l7"></h1>
+        <h1 id="l8"></h1>
+        <h1 id="l9"></h1>
+        <h1 id="l10"></h1>
+
+    </div>
+
+</body>
+
+</html>

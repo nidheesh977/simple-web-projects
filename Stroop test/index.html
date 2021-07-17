@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+
+<body>
+    <div id="playing">
+        <div class="bg">
+            <div class="st">
+                <h1 id="score"></h1>
+            </div>
+            <div class="st">
+                <h1 id="time"></h1>
+            </div>
+
+            <h1 id="word"><button onclick="start()" id="start">START</button></h1>
+        </div>
+        <div class="btns">
+            <button id="red" onclick="red()">RED</button>
+
+            <button id="green" onclick="green()">GREEN</button>
+
+            <button id="blue" onclick="blue()">BLUE</button>
+
+            <button id="orange" onclick="orange()">Yellow</button>
+        </div>
+    </div>
+    <div id="gmover">
+        <div id="goboard">
+            <h1 id="gotext">Game Over</h1>
+            <p id="goscore">Score:</p>
+        </div>
+    </div>
+</body>
+
+
+</html>

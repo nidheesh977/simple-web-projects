@@ -1,0 +1,93 @@
+body {
+    background-color: rgb(46, 46, 46);
+}
+
+#title {
+    height: fit-content;
+    width: 100%;
+    color: rgb(12, 211, 135);
+    font-size: 80px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#players {
+    height: fit-content;
+    width: 650px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#human {
+    height: 230px;
+    width: 200px;
+    float: left;
+}
+
+#vs {
+    height: 150px;
+    width: 150px;
+    font-size: 130px;
+    margin: 25px;
+    float: left;
+}
+
+#computer {
+    height: 230px;
+    width: 200px;
+    float: left;
+}
+
+#options {
+    height: fit-content;
+    width: 510px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.opt {
+    height: 150px;
+    width: 150px;
+    background-color: blue;
+    float: left;
+    margin: 10px;
+    margin-top: 50px;
+}
+
+#score {
+    height: 50px;
+    width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#humscore {
+    font-size: 30px;
+    float: left;
+    margin-left: 10px;
+    font-weight: 900;
+    color: green;
+}
+
+#comscore {
+    font-size: 30px;
+    float: right;
+    margin-right: 60px;
+    font-weight: 900;
+    color: red;
+}
+
+#you {
+    margin-left: 75px;
+    font-size: 30px;
+    font-weight: 900;
+    color: green;
+}
+
+#com {
+    margin-left: 35px;
+    font-size: 30px;
+    font-weight: 900;
+    color: red;
+}

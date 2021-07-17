@@ -1,0 +1,26 @@
+    body {
+        background-color: sienna;
+    }
+    
+    #result {
+        color: blanchedalmond;
+        background-color: blue;
+        width: fit-content;
+        position: relative;
+        top: -73px;
+    }
+    
+    #heading {
+        position: relative;
+        top: -20px;
+    }
+    
+    input {
+        position: relative;
+        top: -45px;
+    }
+    
+    #submit {
+        position: relative;
+        top: -60px;
+    }

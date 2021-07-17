@@ -1,0 +1,83 @@
+body {
+    background-color: rgba(0, 0, 0, 0.486);
+}
+
+#word {
+    font-size: 150px;
+    text-align: center;
+}
+
+#red {
+    background-color: red;
+    margin: 10px;
+    font-size: 25px;
+    color: white;
+}
+
+#green {
+    background-color: green;
+    margin: 10px;
+    font-size: 25px;
+    color: white;
+}
+
+#blue {
+    background-color: blue;
+    margin: 10px;
+    font-size: 25px;
+    color: white;
+}
+
+#orange {
+    background-color: orange;
+    margin: 10px;
+    font-size: 25px;
+    color: white;
+}
+
+button {
+    height: 50px;
+    width: 150px;
+}
+
+#start {
+    background-color: blue;
+    margin: 10px;
+    position: relative;
+    top: 50px;
+    height: 100px;
+    width: 400px;
+    font-size: 50px;
+    color: white;
+}
+
+.btns {
+    text-align: center;
+    visibility: hidden;
+}
+
+#playing {
+    visibility: visible;
+}
+
+#gmover {
+    visibility: hidden;
+    height: 400px;
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    position: relative;
+    bottom: 350px;
+    font-size: 50px;
+    background-color: rgba(0, 0, 255, 0.5);
+}
+
+#gotext {
+    color: red;
+    padding-top: 40px;
+}
+
+#goscore {
+    color: white;
+}
